@@ -54,13 +54,12 @@ body {
 }
 .bottomimg {
   position: absolute;
-  bottom: auto;
   border-top: solid 1px black;
   width: 100%;
   overflow: auto;
 }
 footer {
-  overflow: auto;
+  bottom: 0px;
   width: auto;
   margin-bottom: 0;
 }
