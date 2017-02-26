@@ -4,7 +4,9 @@ body {
     color: #7d97ad;
     box-sizing: content-box;
     margin: 0px;
-    background-color: #E6E9EB;
+    border: 0px;
+    padding: 0px;
+    background-color: #e4e3db;
 }
 
 .header {
@@ -20,6 +22,8 @@ body {
 .progress {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
 }
 .talk {
   font-family: 'Julius Sans One', sans-serif;
@@ -41,7 +45,7 @@ body {
 .book,
 .classes,
 .podcast {
-  background: linear-gradient(285deg, #a7c4cc, white);
+  background: linear-gradient(285deg, #bfd6ed, white);
   border: 1px solid black;
   max-width: 300px;
   margin: 7px;
@@ -50,14 +54,13 @@ body {
   color: #383e3f;
   border-radius: 5px;
 }
-.footer {
-  position: sticky;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
+.bottomimg {
   border-top: solid 1px black;
-  margin-top: 5px;
+  width: 100%;
+  overflow: auto;
 }
-#footer {
-  margin-bottom: 0px;
+footer {
+  position: absolute;
+  bottom: auto;
+  overflow: auto;
 }
