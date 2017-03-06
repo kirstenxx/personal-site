@@ -3,63 +3,66 @@ body {
     font-size: 14px;
     color: #7d97ad;
     background-color: #e4e3db;
-    margin: auto;
+    box-sizing: content-box;
+    margin: 0px;
 }
-
 .header {
-  margin: 0px;
-  width: 100%;
-  border-bottom: solid 1px black;
-  margin-bottom: 5px;
+    margin: 0px;
+    width: 100%;
+    border-bottom: solid 1px black;
+    margin-bottom: 5px;
+}
+.content {
+    margin-bottom: 7%;
 }
 .navigation {
-  text-align: center;
-  font-size: 18px;
-  width: 100%;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
 }
 .progress {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
 }
 .talk {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  margin-right: 35px;
-  text-transform: uppercase;
-  text-align: right;
-  text-shadow: 1px 1px grey;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 35px;
+    text-transform: uppercase;
+    text-align: right;
+    text-shadow: 1px 1px grey;
 }
 .titles {
-  text-align: justify;
-  margin: 1px;
-  font-size: 14px;
+    text-align: justify;
+    margin: 1px;
+    font-size: 14px;
 }
 .devtea {
-  border: 1px solid #E6E9EB;
+    border: 1px solid #E6E9EB;
 }
 .book,
 .classes,
 .podcast {
-  background: linear-gradient(285deg, #bfd6ed, white);
-  border: 1px solid black;
-  max-width: 300px;
-  margin: 7px;
-  padding: 5px;
-  text-align: center;
-  color: #383e3f;
-  border-radius: 5px;
+    background: linear-gradient(285deg, #bfd6ed, white);
+    border: 1px solid black;
+    max-width: 300px;
+    margin: 7px;
+    padding: 5px;
+    text-align: center;
+    color: #383e3f;
+    border-radius: 5px;
 }
 .bottomimg {
-  position: absolute;
-  border-top: solid 1px black;
-  width: 100%;
-  overflow: auto;
+    border-top: solid 1px black;
+    width: 100%;
+    display: flex;
 }
-footer {
-  bottom: 0px;
-  width: auto;
-  margin-bottom: 0;
+.footer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
 }
