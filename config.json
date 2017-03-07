@@ -1,0 +1,12 @@
+{
+  "vars": {},
+  "css": [
+    "jumbotron.less",
+    "modals.less"
+  ],
+  "js": [
+    "modal.js",
+    "transition.js"
+  ],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=36bbfe2a7afd7da274945fcaeda89b7f"
+}
