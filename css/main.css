@@ -27,6 +27,7 @@ body {
     list-style: none;
 }
 .talk {
+  flex: none;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -65,4 +66,24 @@ body {
     height: auto;
     position: fixed;
     bottom: 0;
+}
+
+/*for contact form*/
+.test {
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: 1px black solid;
+  background-color: white;
+  text-align: justify;
+  margin-bottom: 10%;
+}
+ul {
+  list-style: none;
 }

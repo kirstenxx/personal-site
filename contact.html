@@ -17,51 +17,67 @@
     </header>
     <div class="navigation">
         <nav>
-            <a href="index.html" alt="">home</a> |
-            <a href="portfolio.html" alt="">portfolio</a> |
-            <a href="" alt="">about</a> |
-            <a href="contact.html" alt="">contact</a> |
-            <a href="" alt="">blog</a>
+            <a href="index.html" alt="Home Page">home</a> |
+            <a href="portfolio.html" alt="Portfolio">portfolio</a> |
+            <a href="" alt="About Me">about</a> |
+            <a href="contact.html" alt="Contact Us">contact</a> |
+            <a href="" alt="Blog">blog</a>
         </nav>
-        <div class="container">
+        <div class="test">
+            <div id="container" class="ltr">
 
-          <div class="contact">
-            <form action="mailer.php" id="contact_form" method="post">
+                <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://kirstenberg.wufoo.com/forms/z1gcslws1am5j7y/#public">
 
-            <ul class="form">
+                    <header id="header" class="info">
+                        <h2>Contact Us</h2>
+                        <div>Let me know what you're needing built, and I'll do the rest.</div>
+                    </header>
+                    <ul>
+                        <li id="foli1" class="notranslate      ">
 
-                <li class="short">
-                    <label>First Name<span class="required"></span></label>
-                    <input type="text" name="first" id="first" value="First Name" class="requiredField" onblur="if(this.value == '') { this.value = 'First Name'; }" onfocus="if(this.value == 'First Name') { this.value = ''; }" />
-                </li>
+                            <span>
+          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1"       />
+          <label for="Field1">First</label>
+          </span>
+                            <span>
+          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" />
+          <label for="Field2">Last</label>
+          </span>
+                        </li>
+                        <li id="foli3" class="notranslate      ">
+                            <label class="desc" id="title3" for="Field3">
+          Email
+          </label>
+                            <div>
+                                <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" />
+                            </div>
+                        </li>
+                        <li id="foli4" class="notranslate      "><label class="desc" id="title4" for="Field4">
+          How can we help?
+          </label>
 
-                <li class="short">
-                    <label>Last Name<span class="required"></span></label>
-                    <input type="text" name="last" id="last" value="Last Name" class="requiredField" onblur="if(this.value == '') { this.value = 'Last Name'; }" onfocus="if(this.value == 'Last Name') { this.value = ''; }" />
-                </li>
+                            <div>
+                                <textarea id="Field4" name="Field4" class="field textarea small" spellcheck="true" rows="3" cols="30" tabindex="4" onkeyup=""></textarea>
 
-                <li class="long">
-                    <label>Email Address<span class="required"></span></label>
-                    <input type="text" name="email" id="email" value="Email Address" class="requiredField email" onblur="if(this.value == '') { this.value = 'Email Address'; }" onfocus="if(this.value == 'Email Address') { this.value = ''; }" />                        </li>
+                            </div>
+                        </li>
+                        <li class="buttons ">
+                            <div>
 
-                <li class="short">
-                    <label>Company Name</label>
-                    <input type="text" name="company" id="company" value="Company Name" class="requiredField" onblur="if(this.value == '') { this.value = 'Company Name'; }" onfocus="if(this.value == 'Company Name') { this.value = ''; }" />
-                </li>
+                                <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit" />
+                            </div>
+                        </li>
 
-                <li class="short">
-                    <label>Telephone Number</label>
-                    <input type="text" name="phone" id="phone" value="Telephone Number" class="requiredField" onblur="if(this.value == '') { this.value = 'Telephone Number'; }" onfocus="if(this.value == 'Telephone Number') { this.value = ''; }" />
-                </li>
+                        <li class="hide">
+                            <label for="comment">Do Not Fill This Out</label>
+                            <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                            <input type="hidden" id="idstamp" name="idstamp" value="Jr3cVheIfJTV0oK6zhuRRNfkCIUO5iEngVTAsGxyD84=" />
+                        </li>
+                    </ul>
+                </form>
 
-                <li class="textarea">
-                    <label>Message<span class="required"></span></label>
-                    <textarea name="message" id="message" rows="20" cols="30"></textarea>
-                </li>
 
-                <li class="button"><input name="submitted" id="submitted" value="Submit" class="submit" type="submit" />
-                </li>
-              </div>
+            </div>
         </div>
         <div class="footer">
             <img class="bottomimg" src="img/foot.png" alt="Utah Cliffs">
